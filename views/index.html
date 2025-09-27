@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>URL Shortener Microservice</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+        <h1 class="title">URL Shortener Microservice</h1>
+
+        <div class="content-box">
+          <form action="api/shorturl" method="POST">
+            <label for="url_input">URL:</label>
+            <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
+            <input type="submit" value="Shorten" />
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="footer-text">
+          by <span class="author">Josh Aguiluz</span>
+        </p>
+      </div>
+   </body>
+</html>
